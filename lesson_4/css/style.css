@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fruktur&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Aboreto:regular&display=swap");
+
+@font-face {
+    font-family: "Proxima Nova Lt";
+    src: url("../fonts/ProximaNova-Light.woff2") format("woff2"),
+        url("../fonts/ProximaNova-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: rgb(91, 158, 158);
+}
+
+.qwe1{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zxc1{
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Fruktur', cursive;
+    font-size: 35px;
+    color: rgb(131, 13, 243);
+    text-transform: none;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(255, 0, 251);
+    white-space: nowrap;
+    line-height: 1.4;
+    
+
+}
+
+.qwe2{
+    font-family: "Aboreto", sans-serif;
+}
+
+.qwe3{
+    font-family: "Unbounded", sans-serif;
+}
+
+.zxc2{
+    text-align: center;
+    font-size: small;
+    letter-spacing: 5px;
+    font-family: "Proxima Nova Lt", sans-serif;
+}
+
+.zxc3{
+    text-indent: 20px;
+    font-size: large;
+}
+
+.zxc4{
+    word-spacing: 20px;
+    white-space: normal;
+}
