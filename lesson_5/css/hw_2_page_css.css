@@ -1,0 +1,103 @@
+@import url(reset.css);
+
+body{
+    width: 1440px;
+    font-family: "Poppins" , sans-serif;
+    background-color: #E5E5E5;
+    margin: 0 auto;
+    
+}
+
+.title{
+    color: blueviolet;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.first-div{
+    display: block;
+    margin: 15px 300px;
+    width: 78px;
+    height: 200px;
+    overflow: scroll;
+    color:rgb(19, 192, 34);
+    background-color: bisque;
+}
+
+.second-div{
+    color:brown;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin-left: 800px;
+    max-width: 400px;
+    padding: 20px;
+    
+
+}
+
+.img-two{
+ margin-left: 50px;
+}
+
+.third-div{
+color: blue;
+}
+
+.img-one{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.a-block{
+    font-size: 14px;
+	background-color: #322955;
+	color: #eb1414;
+	padding: 30px;
+	max-width: 100px;
+	display: inline;
+}
+
+.b-block{
+    font-size: 70px;
+	background-color: #322955;
+	color: #eb1414;
+	padding: 30px;
+	max-width: 50px;
+	display: inline;
+
+}
+
+.c-block{
+    font-size: 14px;
+	background-color: #322955;
+	color: #eb1414;
+	padding: 30px;
+	max-width: 100px;
+	display: inline;
+}
+
+.d-block{
+    font-size: 45px;
+	background-color: #322955;
+	color: #eb1414;
+	padding: 30px;
+	max-width: 50px;
+	display: inline;
+}
+
+.hw-img{
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+ }
+    
+ .hw-text{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    color: #6C757D;
+}
