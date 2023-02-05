@@ -1,22 +1,27 @@
 @import url(reset.css);
 
+
 body{
-    width: 1440px;
     font-family: "Poppins" , sans-serif;
     background-color: #E5E5E5;
+    
+}
+
+[class*="__container"]{
     margin: 0 auto;
+    max-width: 816px;
     
 }
 
 .first-tittle{
-    margin: 0px 728px 40px 312px;
-    padding-top: 15px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 40px;
     color: #212529;
+    max-width: 400px;
+    margin-bottom: 40px;
+    padding-top: 15px;
     
 }
 
@@ -27,12 +32,15 @@ body{
     font-size: 14px;
     line-height: 25px;
     color: #6C757D;
-
-    margin: 0 312px;
+    margin-bottom: 80px;
 }
 
 .first-image{
-    margin: 80px 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+
 }
 
 .second-tittle{
@@ -41,11 +49,9 @@ body{
     font-weight: 700;
     font-size: 25px;
     line-height: 40px;
-
+    max-width: 605px;
     color: #212529;
-
-    margin-left: 312px;
-    margin-right: 523px;
+    margin-bottom: 40px;
 }
 
 .second-text-block{
@@ -54,38 +60,37 @@ body{
     font-weight: 300;
     font-size: 14px;
     line-height: 25px;
-
+    margin-bottom: 80px;
     color: #6C757D;
-
-    margin: 40px 312px 80px 312px;
 
 }
 
 .second-block-image
 {
     text-align: center;
+    font-size: 0;
+    margin-bottom: 80px;
+    
 }
 
 .second-img{
-    
-padding-right: 30px;
-display: inline-block;
+    display: inline-block;
+    padding-right: 30px;
 }
 
 .third-image{
     display: inline-block;
 }
 
-.third-text-block{
+
+.third-text-block__container{
 
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 25px;
-
     color: #6C757D;
-
-    margin: 80px 312px 60px 312px;
+    margin-bottom: 60px;
 }
 
 .hw-img{
