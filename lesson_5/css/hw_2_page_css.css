@@ -90,14 +90,15 @@ color: blue;
 
 .hw-img{
     display: block;
-    margin: 10px auto;
-    width: 150px;
-    height: 150px;
- }
-    
- .hw-text{
+    margin: 30px auto;
+    height: 150px;   
+    box-shadow: 0 5px 40px;
+}
+
+.hw-text{
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
     text-align: center;
     color: #6C757D;
+    margin: 10px auto;
 }
