@@ -1,20 +1,25 @@
 @import url(reset.css);
 
 
-body{
-    font-family: "Poppins" , sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
     background-color: #E5E5E5;
-    
+
 }
 
-[class*="__container"]{
+[class*="__container"] {
     margin: 0 auto;
     max-width: 816px;
-    
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
 
-.first-tittle{
-    font-style: normal;
+[class*="__text"]{
+    margin-bottom: 12px;
+}
+
+.first-tittle {
     font-weight: 700;
     font-size: 25px;
     line-height: 40px;
@@ -22,28 +27,31 @@ body{
     max-width: 400px;
     margin-bottom: 40px;
     padding-top: 15px;
-    
+
 }
 
-.first-text-block{
+.text-1__container{
+    margin-bottom: 80px;
+}
+
+.first-text-block {
 
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 25px;
     color: #6C757D;
-    margin-bottom: 80px;
 }
 
-.first-image{
+.first-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
-
+    margin: 0 auto 80px;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.second-tittle{
+.second-tittle {
 
     font-style: normal;
     font-weight: 700;
@@ -54,7 +62,7 @@ body{
     margin-bottom: 40px;
 }
 
-.second-text-block{
+.second-text-block {
 
     font-style: normal;
     font-weight: 300;
@@ -65,25 +73,29 @@ body{
 
 }
 
-.second-block-image
-{
+.second-block-image {
     text-align: center;
     font-size: 0;
     margin-bottom: 80px;
-    
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
 
-.second-img{
+.second-img {
     display: inline-block;
-    padding-right: 30px;
+    padding-right: 15px;
+    max-width: 50%;
 }
 
-.third-image{
+.third-image {
     display: inline-block;
+    padding-left: 15px;
+    max-width: 50%;
 }
 
 
-.third-text-block__container{
+.third-text-block__container {
 
     font-style: normal;
     font-weight: 300;
@@ -93,17 +105,21 @@ body{
     margin-bottom: 60px;
 }
 
-.hw-img{
+.hw-img {
     display: block;
     margin: 30px auto;
-    height: 150px;   
+    height: 150px;
+    max-width: 100%;
     box-shadow: 0 5px 40px;
+    padding-right: 15px;
+    padding-left: 15px; 
 }
 
-.hw-text{
+.hw-text {
     display: block;
     margin: 0 auto;
     text-align: center;
     color: #6C757D;
     margin: 10px auto;
+    padding: 0 15px 15px 15px;
 }
