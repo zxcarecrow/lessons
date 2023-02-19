@@ -124,11 +124,16 @@ h3{
 	font-size: 30px;
 }
 
-.page-2__container ul {
+.third-exercise__container ul {
 	font-weight: 700;
 	font-size: 16px;
 	color: #637381;
 	margin-bottom: 60px;
+}
+
+.third-exercise__container {
+	max-width: 1170px;
+	font-size: 0;
 }
 
 .third-exercise__container ul {
