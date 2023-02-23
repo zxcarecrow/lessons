@@ -1,0 +1,80 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap);
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color:#7798b4;
+    padding: 15px 15px;
+}
+
+[class*="__block"] {
+    margin: 15px auto;
+    padding: 15px 15px;
+    max-width: 1200px;
+    background-color: #81888d;
+}
+
+[class*="__container"]{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #637585;
+    padding: 10px 10px;
+}
+
+[class*="__container"]>img {
+    background-color: #435c77;
+    border-radius: 15%;
+    padding: 5px 5px;
+    min-height: 70px;
+    max-width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3{   
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #212B36;
+}
+
+.width-of-the-text {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #3c454d;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.first__block {
+    margin-top: 30px;
+}
+
+.design {
+    padding: 200px 100px;
+    background: url('../img/design/Dotted\ Shape.svg') 50px 30px , url('../img/design/Dotted\ Shape2.svg') 175px 30px , url('../img/design/Dotted\ Shape3.svg') 300px 30px, url('../img/design/Dotted\ Shape4.svg') 425px 30px, url('../img/design/Ellipse\ 2706.svg') 550px 30px , url('../img/design/Ellipse\ 2717.svg') 650px 30px , url('../img/design/Ellipse\ 2718.svg') 775px 30px , url('../img/design/Ellipse\ 2718.svg') 900px 30px , url('../img/design/Group\ 1000001858.svg') 1020px 30px , url('../img/design/Ova3l.svg') 175px 300px , url('../img/design/Oval.svg') 300px 291px , url('../img/design/Oval2.svg') 425px 291px , url('../img/design/shape.svg') 550px 290px , url('../img/design/Vector\ 14.svg') 665px 235px , url('../img/design/Vector\ 15.svg') 800px 35px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-color: #637585;
+    max-width: 100%;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1;
+    text-align: center;
+    color: #212B36;
+    text-decoration: underline;
+}
+
+.second-img__container {
+    max-width: 1150px;
+}
